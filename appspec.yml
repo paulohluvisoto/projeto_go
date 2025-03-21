@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /projeto_go
+
+hooks:
+  AfterInstall:
+    - location: scripts/configurar.sh
+      timeout: 300
+      runas: root
