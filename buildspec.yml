@@ -5,7 +5,7 @@ phases:
     commands:
       - echo "Iniciando o build..."
       - go version
-      - go get -v
+      - ls
   build:
     commands:
       - echo "Compilando o código Go..."
