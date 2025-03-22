@@ -12,5 +12,5 @@ phases:
       - go build -o projeto_go main.go
 artifacts:
   files:
-    - main
+    - projeto_go
 
