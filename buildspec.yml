@@ -10,6 +10,7 @@ phases:
     commands:
       - echo "Compilando o código Go..."
       - go build -o projeto_go main.go
+
 artifacts:
   files:
     - projeto_go
