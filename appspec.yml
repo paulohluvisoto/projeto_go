@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: projeto_go
+  - source: /main
     destination: /projeto_go
 
 hooks:
