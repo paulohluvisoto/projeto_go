@@ -1,8 +1,15 @@
 version: 0.0
 os: linux
 files:
-  - source: /main
+  - source: main
     destination: /projeto_go
+
+permissions:
+  - object: /projeto_go/main
+    pattern: "**"
+    owner: root
+    group: root
+    mode: 755
 
 hooks:
   AfterInstall:
