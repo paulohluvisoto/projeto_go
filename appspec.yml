@@ -10,9 +10,3 @@ permissions:
     owner: root
     group: root
     mode: 755
-
-hooks:
-  ApplicationStop:
-     - location: /dev/null
-  ApplicationStart:
-     - location: /dev/null
