@@ -13,7 +13,4 @@ permissions:
 
 hooks:
   ApplicationStop: []
-  AfterInstall:
-    - location: scripts/configurar.sh
-      timeout: 300
-      runas: root
+  ApplicationStart: []
