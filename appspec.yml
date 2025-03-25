@@ -12,5 +12,7 @@ permissions:
     mode: 755
 
 hooks:
-  ApplicationStop: []
-  ApplicationStart: []
+  ApplicationStop:
+     - location: /dev/null
+  ApplicationStart:
+     - location: /dev/null
