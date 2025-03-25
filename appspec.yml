@@ -12,6 +12,7 @@ permissions:
     mode: 755
 
 hooks:
+  ApplicationStop: []
   AfterInstall:
     - location: scripts/configurar.sh
       timeout: 300
