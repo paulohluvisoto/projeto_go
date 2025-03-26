@@ -4,6 +4,7 @@ files:
   - source: main
     destination: /projeto_go
 
+
 permissions:
   - object: /projeto_go/main
     pattern: "**"
