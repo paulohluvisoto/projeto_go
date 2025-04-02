@@ -1,12 +1,12 @@
 version: 0.0
 os: linux
 files:
-  - source: main
+  - source: mainn
     destination: /projeto_go
 
 
 permissions:
-  - object: /projeto_go/main
+  - object: /projeto_go/mainn
     pattern: "**"
     owner: root
     group: root
